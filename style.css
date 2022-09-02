@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/netflix/images/netflixbackground.jpg");
+}
+#container{
+    margin: 30px 100px;
+    background-color: rgba(0,0,0,0.3);
+}
+#head{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0 0 0;
+    color: white;
+    font-family: "Bowlby One SC", cursive;
+    letter-spacing: 7px;
+}
+#head2{
+    text-align: center;
+    color: white;
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 23px;
+    margin: 0 0 12px;
+}
+#flixred{
+    color: red;
+}
+#form{
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name-container,
+#age-container,
+#email-container,
+#content-container,
+#movie-container,
+#gender-container,
+#feedback-container
+{
+    font-size: 16px;
+    padding: 14px 0 0 40px;  
+    color: white;  
+}
+#name,
+#age,
+#email
+{
+    height: 36px;
+    width: 400px;
+    padding: 6px;
+    margin: 14px 0 0;
+}
+#content{
+    height: 54px;
+    width: 400px;
+    padding: 6px;
+    margin: 14px 0 0;
+}
+#send-btn{
+    text-align: center;
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    border-radius: 45px;
+    margin: 16px 0 16px 150px;
+    font-size: large;
+    color: white;
+}
+#send-btn:hover{
+    background-color: white;
+    color: red;
+}
